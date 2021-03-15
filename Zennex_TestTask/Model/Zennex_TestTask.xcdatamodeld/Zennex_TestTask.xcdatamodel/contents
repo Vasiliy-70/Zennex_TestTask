@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="17511" systemVersion="20B29" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
+    <entity name="Cooperator" representedClassName="Cooperator" syncable="YES" codeGenerationType="class">
+        <attribute name="firstname" attributeType="String"/>
+        <attribute name="id" attributeType="UUID" usesScalarValueType="NO"/>
+        <attribute name="middlename" attributeType="String"/>
+        <attribute name="salary" attributeType="Float" defaultValueString="0.0" usesScalarValueType="YES"/>
+        <attribute name="surname" attributeType="String"/>
+    </entity>
+    <entity name="Leader" representedClassName="Leader" parentEntity="Cooperator" syncable="YES" codeGenerationType="class">
+        <attribute name="businessHours" attributeType="String"/>
+    </entity>
+    <elements>
+        <element name="Cooperator" positionX="-63" positionY="-18" width="128" height="104"/>
+        <element name="Leader" positionX="-54" positionY="9" width="128" height="44"/>
+    </elements>
+</model>
